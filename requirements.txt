@@ -1,0 +1,9 @@
+flask
+requests
+openai
+beautifulsoup4
+pandas
+duckdb
+pillow
+librosa
+markdown

@@ -7,7 +7,7 @@ COPY . .
 ENV FLASK_APP=flask_task_api.py
 ENV FLASK_ENV=production
 
-EXPOSE 5000
+EXPOSE 8000
 
 # Command to run the Flask application
 CMD ["python", "main.py"]

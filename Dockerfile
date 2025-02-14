@@ -8,6 +8,4 @@ ENV FLASK_APP=flask_task_api.py
 ENV FLASK_ENV=production
 
 EXPOSE 8000
-
-# Command to run the Flask application
-CMD ["python", "main.py"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
